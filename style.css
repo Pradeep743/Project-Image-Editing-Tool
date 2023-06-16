@@ -101,3 +101,49 @@ canvas {
     justify-content: space-between;
     margin-top: 0;
 }
+
+rotate .options .btn {
+    font-size: 1.5rem;
+    padding: 0.2em;
+    border-radius: 5px;
+    color: #6C757D;
+    background: #fff;
+    border: 1px solid #aaa;
+    cursor: pointer;
+}
+
+.options .btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.controls .row {
+    display: grid;
+    gap: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.controls button {
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.controls .choose-img {
+    background: #6C757D;
+    border: 1px solid #6C757D;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.controls .save-img {
+    background: #5372F0;
+    border: 1px solid #5372F0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff;
+}
